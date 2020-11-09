@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Learning HTML</title>
+    <meta name="description" content="Website of a HTML student!" />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="/img/among_us_player_blue_icon_156941.ico" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!--Start Header-->
+    <header>
+      <nav>
+        <h1 class="logo">The Logo</h1>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--End Header-->
+    <section class="hero-section">
+      <h2>The Cooking Master</h2>
+      <h3>Buy our home made <span>bakery</span></h3>
+      <button>Buy Now!</button>
+    </section>
+    <section class="form-section">
+      <header>
+        <h2>Contact Us</h2>
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 16 16"
+        >
+          <path fill="#e20505" d="M6 0h4v4l-1 7h-2l-1-7z"></path>
+          <path
+            fill="#e20505"
+            d="M10 14c0 1.105-0.895 2-2 2s-2-0.895-2-2c0-1.105 0.895-2 2-2s2 0.895 2 2z"
+          ></path>
+        </svg>
+      </header>
+      <form>
+        <label for="nam-input">Name:</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email-input">Email:</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="message-input">Message:</label>
+        <textarea
+          name="message"
+          id="message-input"
+          cols="50"
+          rows="10"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+button {
+  font-size: 1.8rem;
+}
+
+nav {
+  background: darkblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 1.6rem;
+}
+
+.hero-section {
+  background-image: url("img/pexels-ella-olsson-1640777.jpg");
+  background-size: cover;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  height: 50rem;
+  padding-top: 10rem;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 3px 2px 4px black;
+  color: white;
+}
+
+.hero-section h3 span {
+  color: rgb(252, 8, 8);
+}
+
+.hero-section button {
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px 3px black;
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid red;
+  box-shadow: 0px 5px 2px -2px rgba(128, 128, 128, 0.548);
+  padding: 0;
+}
+
+.form-section {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  align-content: center;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+}
+
+.form-section header h2 {
+  display: inline-block;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.form-section header svg {
+  width: 3rem;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  margin: auto;
+}
+form label {
+  padding-right: 13rem;
+  margin-top: 2rem;
+}
+
+form label:nth-child(5) {
+  padding-right: 33rem;
+}
+
+form textarea {
+  resize: none;
+}
+
+.form-section button {
+  margin: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border: 1.5px solid black;
+  padding: 4px 8px;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.form-section button:hover {
+  background-color: crimson;
+  color: white;
+  border-color: white;
+}
