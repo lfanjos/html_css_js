@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: whitesmoke;
+}
+
+body {
+  background-image: url(/images/bg-desktop.svg),
+    linear-gradient(hsl(257, 40%, 49%), hsl(257, 40%, 49%));
+  background-size: cover;
+  background-position: top left;
+  margin: 5rem;
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+
+main {
+  display: flex;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.8rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+  color: inherit;
+  transition: border-color 0.3s ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+  border-color: purple;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 4rem;
+}
+
+.main-content-texts {
+  padding-top: 6rem;
+  padding-left: 4rem;
+}
+
+.main-content-button {
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.301);
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.5s cubic-bezier(0.45, -0.73, 0.42, 1.74);
+}
+
+.main-content-button:hover {
+  transform: scale(1.1);
+  opacity: 90%;
+}
+
+.main-content-image img {
+  height: 45.5rem;
+}
+
+.social-icons {
+  display: inline;
+}
+
+.social-icons a {
+  margin: 0.5rem;
+  border-bottom: 0px;
+}
+
+.facebook-icon {
+  transition: color 0.3s ease;
+}
+
+.facebook-icon:hover {
+  color: rgb(3, 51, 100);
+}
+.twitter-icon {
+  transition: color 0.3s ease;
+}
+
+.twitter-icon:hover {
+  color: dodgerblue;
+}
+.instagram-icon {
+  transition: color 0.3s ease;
+}
+
+.instagram-icon:hover {
+  color: tomato;
+}
