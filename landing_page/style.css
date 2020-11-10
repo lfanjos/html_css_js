@@ -116,3 +116,61 @@ footer {
 .instagram-icon:hover {
   color: tomato;
 }
+
+@media (max-width: 375px) {
+
+  html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  *{
+    box-sizing: inherit;
+  }
+
+  html{
+    width: 100vw;
+  }
+  body{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+    width: 35rem;
+  }
+
+  h1{
+    font-size: 1.9rem;
+  }
+
+  #logo{
+    height: 3rem;
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .main-content-texts{
+    text-align: center;
+    width: 35rem;
+    padding: 4rem 2rem;
+  }
+  .main-content-image img{
+    height: 23rem;
+  }
+
+  footer p{
+    display: none;
+  }
+
+  footer{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .social-icons{
+    text-align: center;
+  }
+}
